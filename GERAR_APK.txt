@@ -1,0 +1,21 @@
+PRÓLOGO RPG — GERAR APK
+
+O jogo já está dentro de:
+app/src/main/assets/index.html
+
+OPÇÃO 1 — ANDROID STUDIO
+1. Abra esta pasta no Android Studio.
+2. Aguarde o Gradle sincronizar.
+3. Vá em Build > Build APK(s).
+4. O arquivo ficará em:
+   app/build/outputs/apk/debug/app-debug.apk
+
+OPÇÃO 2 — GITHUB (não precisa instalar Android Studio)
+1. Crie um repositório no GitHub.
+2. Envie todos os arquivos desta pasta.
+3. Abra a aba Actions.
+4. Rode o workflow "Build APK".
+5. Baixe o artifact "prologo-rpg-apk".
+
+O APK debug pode ser enviado diretamente para seus amigos.
+No Android deles pode aparecer a opção para permitir instalação de apps de fonte desconhecida.
